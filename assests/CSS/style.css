@@ -614,6 +614,9 @@ button:focus {
     .bars {
         display: block;
     }
+    #my-image {
+        margin-top: -6vh !important;
+    }
     
 }
 
@@ -653,6 +656,17 @@ button:focus {
         width: 80%;
         margin: 10%;
     }
+    #my-image {
+        margin-top: -10vh !important;
+    }
 
+}
+
+@media only screen and (max-width: 1024px) {
+    
+    #my-image {
+        margin-top: -6vh !important;
+    }
+    
 }
 
